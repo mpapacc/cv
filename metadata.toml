@@ -100,7 +100,7 @@ language = "it"
     letter_footer = "申请信"
 
 [lang.it]
-    header_quote = "Prossimo alla laurea triennale in informatica il 27/03/2026"
+    header_quote = ""
     cv_footer = "Curriculum vitae"
     letter_footer = "Lettera di presentazione"
 

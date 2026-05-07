@@ -6,7 +6,7 @@
 
 #cv-entry(
   title: [Helpdesk junior],
-  society:  [Expertec SRL],
+  society:  [Partita IVA - Expertec SRL],
   date: [2025/2026],
   location: [On site],
 
