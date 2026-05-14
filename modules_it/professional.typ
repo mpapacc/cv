@@ -16,6 +16,10 @@
     [Caricamento immagine],
     [Configurazione posta elettronica],
     [Installazione stampanti di rete],
+    [Gestione utenti in Linux],
+    [Gestione servizi containerizzati con Podman],
+    [Scripting bash livello intermedio],
+    [Configurazione interfacce di rete]
   ),
 )
 
@@ -53,21 +57,21 @@
   ),
 )
 
-#cv-entry(
-  title: [Fattorino],
-  society: [Pizzeria Tre Rose],
-  date: [2022 - 2024],
-  location: [Camnago-Faloppio, Como],
-  description: list(
-    [Consegna pizze],
-  ),
-)
-
-#cv-entry(
-  title: [Giardiniere],
-  society: [Pozzi Giardini],
-  // logo: image("../assets/logos/pqr_corp.png"),
-  date: [2020],
-  location: [Colverde, Como],
-  description: list([Pulizia piante], [Potatura siepi]),
-)
+// #cv-entry(
+//   title: [Fattorino],
+//   society: [Pizzeria Tre Rose],
+//   date: [2022 - 2024],
+//   location: [Camnago-Faloppio, Como],
+//   description: list(
+//     [Consegna pizze],
+//   ),
+// )
+// 
+// #cv-entry(
+//   title: [Giardiniere],
+//   society: [Pozzi Giardini],
+//   // logo: image("../assets/logos/pqr_corp.png"),
+//   date: [2020],
+//   location: [Colverde, Como],
+//   description: list([Pulizia piante], [Potatura siepi]),
+// )
