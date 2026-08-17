@@ -5,9 +5,21 @@
 #cv-section("Esperienze di lavoro")
 
 #cv-entry(
+  title: [Automatizzazione gestione form e email con  ninox crm, jotforms e n8n],
+  society:  [Partita IVA ],
+  date: [07/2026],
+  location: [Remoto],
+
+  description: list(
+    [Integrazione di jot form a ninox crm],
+    [Automatizzazione di invio email con n8n],
+  ),
+)
+
+#cv-entry(
   title: [Helpdesk junior],
   society:  [Partita IVA - Expertec SRL],
-  date: [2025/2026],
+  date: [03/2026 - 07/2026],
   location: [On site],
 
   description: list(
@@ -16,19 +28,20 @@
     [Caricamento immagine],
     [Configurazione posta elettronica],
     [Installazione stampanti di rete],
+    [Rollout pc presso Allianz ed Artemide]
   ),
 )
 
-// #cv-entry(
-//   title: [Tirocinio],
-//   society: [AMEL srl],
-//   location: [Milano],
-//   date: [12/2025 - 02/2026],
-//   description: list(
-//     [Realizzazione di un sistema automatico per il controllo della temperatura],
-//     [Programmazione del controllo PID, dell'interfaccia grafica e della comunicazione tra essi],
-//   ),
-// )
+#cv-entry(
+  title: [Tirocinio],
+  society: [AMEL srl],
+  location: [Milano],
+  date: [12/2025 - 02/2026],
+  description: list(
+    [Realizzazione di un sistema automatico per il controllo della temperatura],
+    [Programmazione del controllo PID, dell'interfaccia grafica e della comunicazione tra essi],
+  ),
+)
 
 #cv-entry(
   title: [Integrazione form wordpress con ninox crm],

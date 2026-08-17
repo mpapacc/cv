@@ -17,8 +17,3 @@
   url: "https://www.credly.com/badges/c1a76d1c-783d-46ba-a8fe-475e8bc5f148/public_url"
 )
 
-// #cv-honor(
-//   date: [],
-//   title: [Fondamenti di SQL],
-//   issuer: [Datacamp],
-// )

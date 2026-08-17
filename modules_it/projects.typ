@@ -5,13 +5,13 @@
 #cv-section("Progetti")
 
 #cv-entry(
-  title: [Contributo volontario a diversi progetti open source],
-  // society: [ABC Nonprofit Organization],
+  title: [Contributo volontario a diversi progetti open source su github.com],
   date: [2022 - Present],
-  // location: [New York, NY],
   description: list(
     [Creazione di template per linguaggio di programmazione typst],
     [Contributo a google maps scraper pulizia codebase],
     [Contributo a phoenixframework pulizia codebase],
+    [Contributo a nautilus_trader],
+    [Contributo a disruptor-rs]
   ),
 )
