@@ -1,43 +1,20 @@
 // Imports
-#import "@preview/brilliant-cv:3.1.2": cv-section, cv-skill, cv-skill-with-level, cv-skill-tag, h-bar
+#import "@preview/brilliant-cv:3.1.2": cv-section, cv-skill, h-bar
 
 
 #cv-section("Skills")
 
-#cv-skill-with-level(
+#cv-skill(
   type: [Languages],
-  level: 4,
-  info: [English (Native) #h-bar() French (Fluent) #h-bar() Chinese (Conversational)],
-)
-
-#cv-skill-with-level(
-  type: [Programming],
-  level: 5,
-  info: [Python #h-bar() SQL #h-bar() R],
+  info: [English (Advanced) #h-bar() French (Basic) #h-bar() German (Basic)],
 )
 
 #cv-skill(
-  type: [Tech Stack],
-  info: [Tableau #h-bar() Snowflake #h-bar() AWS #h-bar() Docker #h-bar() Git],
-)
-
-#cv-skill(
-  type: [Frameworks & Libraries],
-  info: [Pandas #h-bar() NumPy #h-bar() Scikit-learn #h-bar() TensorFlow #h-bar() FastAPI],
-)
-
-// Skill tags example
-#cv-skill(
-  type: [Certifications],
-  info: [
-    #cv-skill-tag([AWS Certified])
-    #cv-skill-tag([Google Analytics])
-    #cv-skill-tag([Tableau Desktop])
-    #cv-skill-tag([Scrum Master])
-  ],
+  type: [Technologies],
+  info: [Python (Pandas/NumPy) #h-bar() SQL #h-bar() Regular expressions #h-bar() Linux #h-bar() Hacking #h-bar() JavaScript #h-bar() Docker #h-bar() Ruby #h-bar() C #h-bar() Embedded Programming #h-bar() Arduino],
 )
 
 #cv-skill(
   type: [Personal Interests],
-  info: [Swimming #h-bar() Cooking #h-bar() Reading #h-bar() Photography],
+  info: [Football #h-bar() Sports #h-bar() Chess],
 )

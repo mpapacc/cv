@@ -1,53 +1,85 @@
 // Imports
-#import "@preview/brilliant-cv:3.1.2": cv-section, cv-entry, cv-entry-start, cv-entry-continued
+#import "@preview/brilliant-cv:3.1.2": cv-entry, cv-entry-continued, cv-entry-start, cv-section
 
 
 #cv-section("Professional Experience")
 
-#cv-entry-start(
-  society: [XYZ Corporation],
-  logo: image("../assets/logos/xyz_corp.png"),
-  location: [San Francisco, CA],
-)
+#cv-entry(
+  title: [Automation of form and email management with Ninox CRM, JotForm and n8n],
+  society:  [Freelance ],
+  date: [07/2026],
+  location: [Remote],
 
-#cv-entry-continued(
-  title: [Director of Data Science],
   description: list(
-    [Lead a team of data scientists and analysts to develop and implement data-driven strategies, develop predictive models and algorithms to support decision-making across the organization],
-    [Collaborate with executive leadership to identify business opportunities and drive growth, implement best practices for data governance, quality, and security],
-  ),
-  tags: ("Dataiku", "Snowflake", "SparkSQL"),
-)
-
-#cv-entry-continued(
-  title: [Data Scientist],
-  date: [2017 - 2020 #linebreak() 2021 - 2022],
-  description: list(
-    [Analyze large datasets with SQL and Python, collaborate with teams to uncover business insights],
-    [Create data visualizations and dashboards in Tableau, develop and maintain data pipelines with AWS],
+    [Integration of JotForm with Ninox CRM],
+    [Automation of email sending with n8n],
   ),
 )
 
 #cv-entry(
-  title: [Data Analyst],
-  society: [ABC Company],
-  logo: image("../assets/logos/abc_company.png"),
-  date: [2017 - 2020],
-  location: [New York, NY],
+  title: [Junior Helpdesk],
+  society:  [Freelance - Expertec SRL],
+  date: [03/2026 - 07/2026],
+  location: [On-site],
+
   description: list(
-    [Analyze large datasets with SQL and Python, collaborate with teams to uncover business insights],
-    [Create data visualizations and dashboards in Tableau, develop and maintain data pipelines with AWS],
+    [First-level user support],
+    [Domain join of PCs],
+    [Image deployment],
+    [Email configuration],
+    [Installation of network printers],
+    [PC rollout at Allianz and Artemide]
   ),
 )
 
 #cv-entry(
-  title: [Data Analysis Intern],
-  society: [PQR Corporation],
-  logo: image("../assets/logos/pqr_corp.png"),
-  date: list(
-    [Summer 2017],
-    [Summer 2016],
+  title: [Internship],
+  society: [AMEL srl],
+  location: [Milan],
+  date: [12/2025 - 02/2026],
+  description: list(
+    [Development of an automatic temperature control system],
+    [Programming of the PID control, the graphical interface and the communication between them],
   ),
-  location: [Chicago, IL],
-  description: list([Assisted with data cleaning, processing, and analysis using Python and Excel, participated in team meetings and contributed to project planning and execution]),
+)
+
+#cv-entry(
+  title: [Integration of WordPress forms with Ninox CRM],
+  location: [Remote],
+  society: [Freelance],
+  date: [2024],
+  description: list(
+    [Automation and extraction of form information],
+    [Automatic insertion into Ninox CRM to avoid manual copying],
+  ),
+)
+
+#cv-entry(
+  title: [Web scraping services and Telegram bot automation],
+  location: [Remote],
+  society: [Freelance],
+  date: [2022-2023],
+  description: list(
+    [Scraping of websites and processing of information],
+    [Creation of Telegram bots for sending automatic messages],
+  ),
+)
+
+#cv-entry(
+  title: [Delivery Driver],
+  society: [Pizzeria Tre Rose],
+  date: [2022 - 2024],
+  location: [Camnago-Faloppio, Como],
+  description: list(
+    [Pizza delivery],
+  ),
+)
+
+#cv-entry(
+  title: [Gardener],
+  society: [Pozzi Giardini],
+  // logo: image("../assets/logos/pqr_corp.png"),
+  date: [2020],
+  location: [Colverde, Como],
+  description: list([Plant maintenance], [Hedge trimming]),
 )
