@@ -86,7 +86,7 @@ language = "it"
     letter_footer = "Anschreiben"
 
 [lang.en]
-    header_quote = "Experienced Data Analyst looking for a full time job starting from now"
+    header_quote = ""
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"
 
