@@ -26,6 +26,7 @@ language = "it"
     [layout.fonts]
         regular_fonts = ["Source Sans 3"]
         header_font = "Roboto"
+        mono_font = "Source Code Pro"
 
     [layout.header]
         # Optional values: left, center, right
